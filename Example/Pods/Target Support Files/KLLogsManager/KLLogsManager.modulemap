@@ -1,0 +1,6 @@
+framework module KLLogsManager {
+  umbrella header "KLLogsManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - KLLogsManager (0.1.0)
+
+DEPENDENCIES:
+  - KLLogsManager (from `../`)
+
+EXTERNAL SOURCES:
+  KLLogsManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KLLogsManager: f0ce4d9b73b9b276fa0ee951cb59b03b3c162b36
+
+PODFILE CHECKSUM: 75ef2d30ba6a30dfb3e2da5c1235383319a203e5
+
+COCOAPODS: 1.6.0

@@ -40,7 +40,7 @@ class KLLogsManager {
     
     
     // MARK: - Properties
-    static let shared = KLLogsManager()
+    public static let shared = KLLogsManager()
     
     var manager: IOHIDManager
     var deviceList = NSArray()                  // Used in multiple matching dictionary

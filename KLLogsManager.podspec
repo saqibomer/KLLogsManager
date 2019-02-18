@@ -10,6 +10,7 @@ Pod::Spec.new do |s|
   s.name             = 'KLLogsManager'
   s.version          = '0.1.0'
   s.summary          = 'Keylog event using Swift'
+  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.2' }
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -24,9 +25,9 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/saqibomer/KLLogsManager'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'saqibomer.cs@gmail.com' => 'https://www.linkedin.com/in/saqibomer' }
+  s.author           = { 'saqibomer.cs@gmail.com' => '' }
   s.source           = { :git => 'https://github.com/saqibomer/KLLogsManager.git', :tag => s.version.to_s }
-  s.social_media_url = 'https://www.linkedin.com/in/saqibomer'
+# s.social_media_url = 'https://www.linkedin.com/in/saqibomer'
 
   s.platform = :osx
   s.osx.deployment_target = "10.10"

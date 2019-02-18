@@ -1,0 +1,22 @@
+{
+  "name": "KLLogsManager",
+  "version": "0.1.0",
+  "summary": "A short description of KLLogsManager.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/saqibomer.cs@gmail.com/KLLogsManager",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "saqibomer.cs@gmail.com": "saqibomer.cs@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/saqibomer.cs@gmail.com/KLLogsManager.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "osx": "10.10"
+  },
+  "source_files": "KLLogsManager/Classes/**/*"
+}
