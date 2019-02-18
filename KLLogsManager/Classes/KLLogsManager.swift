@@ -9,7 +9,7 @@ import Foundation
 import IOKit.hid
 import Cocoa
 
-protocol KLKeylogsDelegate: class {
+protocol KLLogsManagerDelegate: class {
     /**
      - Usegae : '''func didStrokedKey(_ stroke: String, appName: String)'''
      - Description : Triggered when a keystroke event triggers
@@ -49,7 +49,7 @@ class KLLogsManager {
     
     static var CAPSLOCK = false
     
-    static var delegate : KLKeylogsDelegate!
+    static var delegate : KLLogsManagerDelegate!
     
     init() {
         manager = IOHIDManagerCreate(kCFAllocatorDefault, IOOptionBits(kIOHIDOptionsTypeNone))
