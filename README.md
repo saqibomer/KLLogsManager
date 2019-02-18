@@ -22,7 +22,7 @@ pod 'KLLogsManager'
 
 ## Author
 
-saqibomer.cs@gmail.com, saqibomer.cs@gmail.com
+saqibomer.cs@gmail.com
 
 ## License
 
