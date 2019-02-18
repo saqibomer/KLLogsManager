@@ -7,9 +7,9 @@
 //
 
 import Cocoa
-import KLLogsManager
+//import KLLogsManager
 
-class ViewController: NSViewController, KLLogsManagerDelegate{
+class ViewController: NSViewController{
 
   override func viewDidLoad() {
     super.viewDidLoad()
