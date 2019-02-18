@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'KLLogsManager_Example' do
+  pod 'KLLogsManager', :path => '../'
+
+  target 'KLLogsManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
